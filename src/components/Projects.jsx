@@ -22,7 +22,7 @@ function projects() {
       I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.
       </p>
       <p className='mt-6 '>
-      <a href="#" class="text-white hover:bg-yellow-400 hover:text-white ring-2 ring-yellow-400 font-bold rounded-full text-md p-4 mr-4 mb-2 ">VIEW PROJECTS</a>
+      <a href="https://www.behance.net/gallery/180209235/FOOD-HUB" class="text-white hover:bg-yellow-400 hover:text-white ring-2 ring-yellow-400 font-bold rounded-full text-md p-4 mr-4 mb-2 ">VIEW PROJECTS</a>
       </p>
     </div>
   </a>

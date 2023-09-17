@@ -1,10 +1,14 @@
 import React from 'react';
 import './App.css';
-import iriza from './assets/iriza.png';
+
 import Projects from './components/Projects';
 import Testimonies from './components/Testimonies';
 import ContactUs from './components/ContactUs';
 import Footer from './components/footer'
+import dog from './assets/dog.png'
+import logo from './assets/logo.png'
+
+
 
 function App() {
   const scrollToProjects = () => {
@@ -27,13 +31,12 @@ function App() {
     }
   };
 
-
-
   return (
     <div className="App relative">
       <div className="flex font-['Poppins'] flex-wrap space-x-z">
         <div>
-          <p className='m-6'>IRIZA PEACE</p>
+        
+          <img src={logo} alt="logo" className='m-6'/>
         </div>
         <div className="m-6 font-medium text-black-400 space-x-24 absolute z-10">
          
@@ -44,9 +47,9 @@ function App() {
       </div>
       <div>
         <div className='m-16'>
-          <p className='font-bold text-yellow-400 m-6'>UI UX DESIGNER</p>
-          <p className='font-bold text-6xl m-6'>Hello, my name is</p>
-          <p className='font-bold text-6xl m-6'>IRIZA PEACE 🥴</p>
+          <p className='font-bold text-yellow-400 m-6 '>UI UX DESIGNER</p>
+          <p className='font-bold text-6xl m-6 sm:text-lg'>Hello, my name is</p>
+          <p className='font-bold text-6xl m-6 sm:text-lg'>IRIZA PEACE 🥴</p>
           <p className='font-light mx-6 my-3 text-gray-600'>Short text with details about you,</p>
           <p className='font-light mx-6 my-3 text-gray-600'>what you do or your professional career.</p>
           <p className='font-light mx-6 my-3 text-gray-600'>You can add more information on the about page.</p>
@@ -56,8 +59,8 @@ function App() {
             <a href="#" class="text-black hover:bg-yellow-400 hover:text-white ring-2 ring-yellow-400 font-medium rounded-lg text-sm px-16 py-2.5 mr-4 mb-2">LINKED IN</a>
           </div>
         </div>
-        <div className='absolute top-0 right-0'>
-          <img src={iriza} alt="irizaphoto" />
+        <div className='absolute top-6 right-0'>
+          <img src={dog} alt="irizaphoto" className='w-2/3 sm:hidden'/>
         </div>
       </div>
 
