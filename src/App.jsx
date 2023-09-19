@@ -38,7 +38,7 @@ function App() {
         </div>
         <div className="my-6 font-medium  space-x-4 pr-4 sm:space-x-8 md:space-x-12 lg:space-x-24">
 
-          <a href="#" className="hover:underline " onClick={scrollToProjects}>Projects</a>
+          <a href="#" className="hover:underline" onClick={scrollToProjects}>Projects</a>
           <a href="#" className="hover:underline" onclick={scrollToTestimonies}>Testimonies</a>
           <a href="#" className="hover:underline" onClick={scrollToContacts}>Contacts</a>
         </div>
