@@ -43,11 +43,11 @@ function App() {
           <a href="#" className="hover:underline" onClick={scrollToContacts}>Contacts</a>
         </div>
       </div>
-      <div className='flex justify-between items-center px-16 min-h-[90vh]'>
-        <div className=' w-1/3'>
-          <p className='font-bold text-yellow-400 m-6 '>UI UX DESIGNER</p>
-          <p className='font-bold text-6xl m-6 sm:text-lg'>Hello, my name is</p>
-          <p className='font-bold text-6xl m-6 sm:text-lg'>IRIZA PEACE 🥴</p>
+      <div className='flex justify-between items-center px-16 min-h-[90vh] sm:min-h-0 '>
+        <div className=' sm:w-1/3'>
+          <p className='font-bold text-yellow-400 m-6 sm:text-4xl hidden md:block'>UI UX DESIGNER</p>
+          <p className='font-bold text-6xl m-6 sm:text-4xl'>Hello, my name is</p>
+          <p className='font-bold text-6xl m-6 '>IRIZA PEACE 🥴</p>
           <p className='font-light mx-6 my-3 text-gray-600'>I'm a skilled UI/UX designer with a strong history of creating</p>
           <p className='font-light mx-6 my-3 text-gray-600'>and improving software applications</p>
           <p className='font-light mx-6 my-3 text-gray-600'> I specialize in making user experiences better😊.</p>
@@ -57,7 +57,7 @@ function App() {
             <a href={Resume} download class="text-black hover:bg-yellow-400 hover:text-white ring-2 ring-yellow-400 font-medium rounded-lg text-sm px-16 py-2.5 mr-4 mb-2">RESUME</a>
           </div>
         </div>
-        <img src={dog} alt="irizaphoto" className='w-1/2' />
+        <img src={dog} alt="irizaphoto" className='w-1/2 hidden sm:block'/>
       </div>
 
       <div className='space-y-12'>
