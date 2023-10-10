@@ -21,7 +21,8 @@ function projects() {
        
       </h5>
       <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-      I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.
+      AI-powered food waste reduction design to optimize supply chains and help consumers
+       make more informed choices. Worked as a ux and ui designer
       </p>
       <p className='mt-6 '>
       <a href="https://www.behance.net/gallery/180209235/FOOD-HUB" class="text-white hover:bg-yellow-400 hover:text-white ring-2 ring-yellow-400 font-bold rounded-full text-md p-4 mr-4 mb-2 ">VIEW PROJECTS</a>
@@ -49,7 +50,8 @@ function projects() {
      
     </h5>
     <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-    I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.
+    Corasset is a powerful driven agency that builds your home, apartment from zero to hero.
+    I worked as a full process ux and ui designer
     </p>
     <p className='mt-6 '>
     <a href="https://www.behance.net/gallery/159442947/corasset" class="text-white hover:bg-yellow-400 hover:text-white ring-2 ring-yellow-400 font-bold rounded-full text-md p-4 mr-4 mb-2 ">VIEW PROJECTS</a>
