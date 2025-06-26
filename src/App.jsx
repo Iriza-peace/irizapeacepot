@@ -7,7 +7,7 @@ import ContactUs from './components/ContactUs';
 import Footer from './components/footer'
 import dog from './assets/dog.png'
 import logo from './assets/logo.png'
-import Resume from './assets/myresume.jpg'
+import Resume from './assets/myresume.png'
 
 function App() {
   const scrollToProjects = () => {
@@ -45,12 +45,10 @@ function App() {
       </div>
       <div className='flex justify-between items-center px-16 min-h-[90vh] sm:min-h-0 '>
         <div className=' sm:w-1/3'>
-          <p className='font-bold text-yellow-400 m-6 sm:text-4xl hidden md:block'>UI UX DESIGNER</p>
-          <p className='font-bold text-6xl m-6 sm:text-4xl'>Hello, my name is</p>
-          <p className='font-bold text-6xl m-6 '>IRIZA PEACE 🥴</p>
-          <p className='font-light mx-6 my-3 text-gray-600'>I'm a skilled UI/UX designer with a strong history of creating</p>
-          <p className='font-light mx-6 my-3 text-gray-600'>and improving software applications</p>
-          <p className='font-light mx-6 my-3 text-gray-600'> I specialize in making user experiences better😊.</p>
+          <p className='font-bold text-yellow-400 m-6 sm:text-4xl hidden md:block'>UI UX and Graphic DESIGNER</p>
+          <p className='font-bold text-6xl m-6 sm:text-4xl'>Hello, my name is Peace Mary Amizero Iriza 🥴</p>
+          <p className='font-light mx-6 my-3 text-gray-600'>I'm a skilled UI/UX and Graphic designer with over 3+ years of experience.I have a strong history of designing and improving software applications I specialize in making user experiences better😊.</p>
+  
 
           <div className="m-6">
             <a href="#" class="text-black hover:bg-yellow-400 hover:text-white ring-2 ring-yellow-400 font-medium rounded-lg text-sm px-16 py-2.5 mr-4 mb-2" onClick={scrollToProjects}>PROJECTS</a>

@@ -1,5 +1,5 @@
 import React from 'react'
-import Ceo from '../assets/ceo.png'
+import Ceo from '../assets/ceo.jpg'
 import Kevine from '../assets/kevine.png'
 import Nicole from '../assets/nicole.jpeg'
 import Souvenir from '../assets/souvenir.jpeg'
@@ -16,8 +16,8 @@ function Testimonies() {
         <figcaption class="flex items-center justify-center space-x-3">
             <img class="rounded-full w-9 h-9" src={Ceo} alt="profile picture"/>
             <div class="space-y-0.5 font-medium dark:text-white text-left">
-                <div>Ndayishimiye Gilbert</div>
-                <div class="text-sm dark:text-yellow-400">CEO AT FOOD HUB</div>
+                <div>NIYOMUNGERI Aline</div>
+                <div class="text-sm dark:text-yellow-400">UI UX and Graphic Designer at Ministry of Finance and Economic Planning(MINECOFIN)</div>
             </div>
         </figcaption>    
     </figure>
@@ -32,7 +32,7 @@ function Testimonies() {
             <img class="rounded-full w-12 h-16" src={Kevine} alt="profile picture"/>
             <div class="space-y-0.5 font-medium dark:text-white text-left">
                 <div>ISHIMWE Kevine</div>
-                <div class="text-sm dark:text-yellow-400">UX and 3d designer at q-battlefield</div>
+                <div class="text-sm dark:text-yellow-400">UX UI Designer at Ministry of Foreign Affairs(MINAFFET)</div>
             </div>
         </figcaption>    
     </figure>
